@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML</title>
+	<link rel="stylesheet" href="btn.css">
+	<style>
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		html,
+		body {
+			background-color: rgb(59, 60, 43);
+			padding: 0;
+			margin: 0;
+
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			color: aliceblue;
+			font-size: 1.1rem;
+		}
+
+		.container header {
+			text-align: center;
+			font-size: 2.5rem;
+			font-weight: 500;
+			padding: 25px;
+			border-bottom: 2px solid #000000;
+		}
+
+		.container footer {
+			border-top: 2px solid #000000;
+		}
+
+		.content {
+			display: flex;
+		}
+
+		.container nav {
+			border-right: 2px solid black;
+		}
+
+		.container aside {
+			text-align: center;
+			border-left: 2px solid #000000;
+
+		}
+
+		nav,
+		aside {
+			flex-basis: 150px;
+			flex-shrink: 0;
+		}
+
+		main {
+			text-align: justify;
+			padding: 24px;
+			height: auto;
+		}
+
+		footer {
+			font-weight: 550;
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		main a {
+			color: blue;
+		}
+
+		ul {
+			padding-bottom: 30px;
+			padding-top: 30px;
+			border-top: 2px solid black;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<header>HTML?</header>
+		<section class="content">
+			<nav>
+				<ul>
+					<li><a href="HC.html" style="color:blue">HTML</a></li>
+					<li><a href="HC_2.html">CSS</a></li>
+				</ul>
+			</nav>
+			<main>
+				<p>HTML은 하이퍼텍스트 마크업 언어(HyperText Markup Language, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)라는 의미의 웹 페이지를 위한 지배적인 마크업 언어다.</p>
+				<p>HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공한다.</p>
+				<p>그리고 이미지와 객체를 내장하고 대화형 양식을 생성하는 데 사용될 수 있다. HTML은 웹 페이지 콘텐츠 안의 꺾쇠 괄호에 둘러싸인 "태그"로 되어있는 HTML 요소 형태로 작성한다.</p>
+				<p>HTML은 웹 브라우저와 같은 HTML 처리 장치의 행동에 영향을 주는 자바스크립트와 본문과 그 밖의 항목의 외관과 배치를 정의하는 <a href="HC_2.html">CSS</a>같은 스크립트를 포함하거나 불러올 수 있다.</p>
+				<p>HTML과 <a href="HC_2.html">CSS</a>표준의 공동 책임자인 W3C는 명확하고 표상적인 마크업을 위하여 <a href="HC_2.html">CSS</a>의 사용을 권장한다.</p>
+			</main>
+			<aside>
+				AD
+			</aside>
+		</section>
+		<footer>
+			<a class="btn" href="index.html">HOME</a>
+		</footer>
+	</div>
+</body></html>
