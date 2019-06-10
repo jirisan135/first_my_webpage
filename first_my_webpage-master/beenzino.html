@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Beenzino</title>
+	<link rel="stylesheet" href="btn.css">
+	<style>
+		body {
+			background-color: black;
+			color: white;
+		}
+		img {
+			width: 100%;
+			height: 400px;
+			border-radius: 7%;
+			border-bottom-left-radius: 0%;
+			border-bottom-right-radius: 0%;
+			;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		.wrapper {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-column-gap: 1em;
+			grid-row-gap: 1em;
+			grid-auto-rows: auto;
+			grid-auto-columns: 400px;
+			text-align: center;
+		}
+
+		.box {
+			border: 1px solid white;
+			border-radius: 7%;
+			width: 100%;
+		}
+
+		.header {
+			display: grid;
+			grid-template-columns: 100px repeat(1, 1fr);
+			grid-auto-rows: 150px;
+			grid-gap: 10px;
+		}
+
+		.header>div {}
+
+		contents {
+			align-content: center;
+			bottom: 0px;
+		}
+
+		.btn {
+			padding: 20px;
+			position: relative;
+			left: 5px;
+		}
+
+		.header2 {
+			font-size: 70px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<div class="header1"><a class="btn" href="index.html">HOME</a></div>
+		<div class="header2">Beenzino</div>
+	</div>
+	<div class="wrapper">
+		<div class="box box1">
+			<img src="img/beenzino1.jpg">
+			<contents>
+				그의 옛날 모습
+			</contents>
+		</div>
+		<div class="box box2">
+			<img src="img/beenzino2.jpg">
+			<contents>
+				그의 프로필 사진
+			</contents>
+		</div>
+		<div class="box box3">
+			<img src="img/beenzino3.jpg">
+			<contents>
+				그의 잡지 사진
+			</contents>
+		</div>
+		<div class="box box4">
+			<img src="img/beenzino4.jpg">
+			<contents>
+				그의 입대전 사진
+			</contents>
+		</div>
+		<div class="box box5">
+			<img src="img/beenzino5.jpg">
+			<contents>
+				그의 무대위 사진
+			</contents>
+		</div>
+		<div class="box box6">
+			<img src="img/beenzino6.jpg">
+			<contents>
+				그의 행복한 사진
+			</contents>
+		</div>
+	</div>
+</body></html>
